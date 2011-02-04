@@ -1,5 +1,5 @@
 =begin
-  @author Anil Bawa-Cavia <anil.bawacavia@gmail.com>
+  @author Anil Bawa-Cavia <anil@quotesque.net>
   @license MIT 
 =end
 
