@@ -126,7 +126,7 @@ module Stats
     
 =begin
   @desc Native ruby implementation of the pearson correlation coefficient (r). Its range is [-1,1].
-  @return Integer r
+  @return Float r
 =end
     def Stats.pearson(x,y)
       n=x.length 
