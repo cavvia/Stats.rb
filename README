@@ -2,4 +2,4 @@ Just drop this single file into any project to enable a range of standard Stats 
 
 Includes the following operations: 
 
-median, mean, squares, deviation, variance, complementary cumulative distribution, pearson correlation, normalisation, range.
+median, mean, mode, squares, deviation, variance, complementary cumulative distribution, pearson correlation, normalisation, range, frequency distribution

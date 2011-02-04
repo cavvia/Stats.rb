@@ -44,6 +44,25 @@ module Stats
         end if nums.size > 0
     end
     
+=begin
+  @desc Produce a frequency distribution
+  @return Array freq
+=end
+    def Stats.frequency(nums)
+      nums.sort.inject({}){ |freq,x| freq[x] = freq[x].to_i+1; freq }
+    end
+
+
+=begin
+  @desc Calculate the most frequently occuring numeric.
+  @return Numeric
+=end
+    def Stats.mode(nums)
+      hist = Stats.frequency(nums)
+      max = hist.values.max
+      hist.keys.select{ |x| hist[x]==max }
+    end    
+    
     
 =begin
   @desc Normalise a set of numbers to the range (0,1)
