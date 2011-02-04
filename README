@@ -1,0 +1,5 @@
+Just drop this single file into any project to enable a range of standard Stats operations in Ruby.
+
+Includes the following operations: 
+
+median, mean, squares, deviation, variance, complementary cumulative distribution, pearson correlation, normalisation, range.
