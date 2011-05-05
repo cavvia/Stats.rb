@@ -116,6 +116,15 @@ module Stats
   end
   
 =begin
+  @desc Index/Coefficient of dispersion (variance/mean). Also known as fano factor.
+  @param Enumerable nums
+  @return Float
+=end  
+  def Stats.dispersion(nums)
+    Stats.variance(nums)/Stats.mean(nums)
+  end  
+  
+=begin
   @desc Absolute Deviation
   @param Enumerable nums
   @return Float
